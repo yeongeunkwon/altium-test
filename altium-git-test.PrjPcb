@@ -56,7 +56,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -88,9 +88,80 @@ UniqueID=CE5EF319-DCA2-4041-8E46-262A4C6EE946
 Description=test-variant
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
+VariationCount=2
 Variation1=Designator=P?|UniqueId=\WXUKXLED|Kind=1|AlternatePart= 
-ParamVariationCount=0
+Variation2=Designator=Q?|UniqueId=\CVUBDFQU|Kind=2|AlternatePart=2N7000|AltLibLink_LibIdentifierKind=Library Name Only|AltLibLink_LibraryIdentifier=yeongeun|AltLibLink_SymbolReference=CMP-013-00020-4|AltLibLink_DesignItemID=CMP-013-00020-4|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=yeongeun|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID=51011CA3-E5E4-4A50-889E-A6DE63F5898A|AltLibLink_ItemGUID=AA3589C8-8DC2-49E7-B129-A5F39B2F224D|AltLibLink_RevisionGUID=8D3930C7-BAF0-4066-8E21-C0CC11471CBD|AltLibLink_Footprint=ONSC-TO-92-3-29-11_AM_BL|AltLibLink_IsSameFootprint=False
+ParamVariation1=ParameterName=Case/Package|VariantValue=TO-92
+ParamDesignator1=Q?
+ParamVariation2=ParameterName=Comment|VariantValue=2N7000
+ParamDesignator2=Q?
+ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator3=Q?
+ParamVariation4=ParameterName=Datasheet URL|VariantValue=http://www.onsemi.com/pub_link/Collateral/2N7000-D.PDF
+ParamDesignator4=Q?
+ParamVariation5=ParameterName=Datasheet Version|VariantValue=Rev. 8, 04/2011
+ParamDesignator5=Q?
+ParamVariation6=ParameterName=Description|VariantValue=Small Signal MOSFET, 200 mA, 60 V, N-Channel, 3-Pin TO-92, Bulk Box
+ParamDesignator6=Q?
+ParamVariation7=ParameterName=Elements|VariantValue=1
+ParamDesignator7=Q?
+ParamVariation8=ParameterName=Footprint|VariantValue=ONSC-TO-92-3-29-11_AM_BL
+ParamDesignator8=Q?
+ParamVariation9=ParameterName=Frequency|VariantValue= 
+ParamDesignator9=Q?
+ParamVariation10=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator10=Q?
+ParamVariation11=ParameterName=Input Capacitance|VariantValue=50pF
+ParamDesignator11=Q?
+ParamVariation12=ParameterName=Library Reference|VariantValue=CMP-013-00020-4
+ParamDesignator12=Q?
+ParamVariation13=ParameterName=Manufacturer|VariantValue=Fairchild Semiconductor
+ParamDesignator13=Q?
+ParamVariation14=ParameterName=Max Operating Temperature|VariantValue=150°C
+ParamDesignator14=Q?
+ParamVariation15=ParameterName=Min Operating Temperature|VariantValue=-55°C
+ParamDesignator15=Q?
+ParamVariation16=ParameterName=Mounting Technology|VariantValue=TH
+ParamDesignator16=Q?
+ParamVariation17=ParameterName=Nominal Dual Supply|VariantValue= 
+ParamDesignator17=Q?
+ParamVariation18=ParameterName=Nominal Dual Supply Voltage|VariantValue=60V
+ParamDesignator18=Q?
+ParamVariation19=ParameterName=Nominal Vgs|VariantValue=2.1V
+ParamDesignator19=Q?
+ParamVariation20=ParameterName=Package Description|VariantValue=3-Pin Transistor Outline, Body 4.825 x 3.685 mm, Pitch 1.27 mm
+ParamDesignator20=Q?
+ParamVariation21=ParameterName=Package Quantity|VariantValue=2000
+ParamDesignator21=Q?
+ParamVariation22=ParameterName=Package Reference|VariantValue=TO-92-3-29-11_AM_BL
+ParamDesignator22=Q?
+ParamVariation23=ParameterName=Package Version|VariantValue=Rev. AM
+ParamDesignator23=Q?
+ParamVariation24=ParameterName=Packaging|VariantValue=Bulk
+ParamDesignator24=Q?
+ParamVariation25=ParameterName=PCB3D|VariantValue= 
+ParamDesignator25=Q?
+ParamVariation26=ParameterName=Pin Info|VariantValue= 
+ParamDesignator26=Q?
+ParamVariation27=ParameterName=Pins|VariantValue=3
+ParamDesignator27=Q?
+ParamVariation28=ParameterName=Power|VariantValue=400mW
+ParamDesignator28=Q?
+ParamVariation29=ParameterName=Rds On Max|VariantValue=5Ohm
+ParamDesignator29=Q?
+ParamVariation30=ParameterName=RoHS Compliant|VariantValue=True
+ParamDesignator30=Q?
+ParamVariation31=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator31=Q?
+ParamVariation32=ParameterName=Simulation|VariantValue= 
+ParamDesignator32=Q?
+ParamVariation33=ParameterName=Transistor Type|VariantValue= 
+ParamDesignator33=Q?
+ParamVariation34=ParameterName=Vgs (Max)|VariantValue= 
+ParamDesignator34=Q?
+ParamVariation35=ParameterName=Vgs(th) (Max) @ Id|VariantValue= 
+ParamDesignator35=Q?
+ParamVariationCount=35
 
 [Configuration1]
 Name=Sources
